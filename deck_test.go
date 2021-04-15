@@ -7,6 +7,6 @@ func TestNewDeck(t *testing.T){
 
 
 	if len(d) != 12 {
-		t.Errorf("Expected deck length of 20, but got %v", len(d))
+		t.Errorf("Expected deck length of 12, but got %v", len(d))
 	}
 }
