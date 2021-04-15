@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e0890f41-1469-4549-8c8f-5a31ab283535" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/deck.go" beforeDir="false" afterPath="$PROJECT_DIR$/deck.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deck_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +44,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.TestNewDeck in golang-refresh">
     <configuration name="go build golang-refresh" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-refresh" />
       <working_directory value="$PROJECT_DIR$" />
@@ -36,8 +54,20 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestNewDeck in golang-refresh" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang-refresh" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="golang-refresh" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestNewDeck\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestNewDeck in golang-refresh" />
         <item itemvalue="Go Build.go build golang-refresh" />
       </list>
     </recent_temporary>
@@ -46,22 +76,37 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1700" height="271" key="GridCell.Tab.0.bottom" timestamp="1618421219065">
-      <screen x="-1920" y="25" width="1920" height="1055" />
+    <state width="1700" height="225" key="GridCell.Tab.0.bottom" timestamp="1618511090827">
+      <screen x="-1920" y="25" width="1920" height="1006" />
     </state>
-    <state width="1700" height="271" key="GridCell.Tab.0.bottom/0.25.1920.1006/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618421219065" />
-    <state width="1700" height="271" key="GridCell.Tab.0.center" timestamp="1618421219064">
-      <screen x="-1920" y="25" width="1920" height="1055" />
+    <state width="1700" height="132" key="GridCell.Tab.0.bottom/0.25.1920.1006/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618423848632" />
+    <state width="1700" height="225" key="GridCell.Tab.0.bottom/1427.1105.1680.1025/0.25.1920.1055/-1920.25.1920.1006@-1920.25.1920.1006" timestamp="1618511090827" />
+    <state width="1700" height="225" key="GridCell.Tab.0.center" timestamp="1618511090825">
+      <screen x="-1920" y="25" width="1920" height="1006" />
     </state>
-    <state width="1700" height="271" key="GridCell.Tab.0.center/0.25.1920.1006/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618421219064" />
-    <state width="1700" height="271" key="GridCell.Tab.0.left" timestamp="1618421219063">
-      <screen x="-1920" y="25" width="1920" height="1055" />
+    <state width="1700" height="132" key="GridCell.Tab.0.center/0.25.1920.1006/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618423848631" />
+    <state width="1700" height="225" key="GridCell.Tab.0.center/1427.1105.1680.1025/0.25.1920.1055/-1920.25.1920.1006@-1920.25.1920.1006" timestamp="1618511090825" />
+    <state width="1700" height="225" key="GridCell.Tab.0.left" timestamp="1618511090824">
+      <screen x="-1920" y="25" width="1920" height="1006" />
     </state>
-    <state width="1700" height="271" key="GridCell.Tab.0.left/0.25.1920.1006/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618421219063" />
-    <state width="1700" height="271" key="GridCell.Tab.0.right" timestamp="1618421219064">
-      <screen x="-1920" y="25" width="1920" height="1055" />
+    <state width="1700" height="132" key="GridCell.Tab.0.left/0.25.1920.1006/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618423848631" />
+    <state width="1700" height="225" key="GridCell.Tab.0.left/1427.1105.1680.1025/0.25.1920.1055/-1920.25.1920.1006@-1920.25.1920.1006" timestamp="1618511090824" />
+    <state width="1700" height="225" key="GridCell.Tab.0.right" timestamp="1618511090826">
+      <screen x="-1920" y="25" width="1920" height="1006" />
     </state>
-    <state width="1700" height="271" key="GridCell.Tab.0.right/0.25.1920.1006/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618421219064" />
+    <state width="1700" height="132" key="GridCell.Tab.0.right/0.25.1920.1006/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618423848632" />
+    <state width="1700" height="225" key="GridCell.Tab.0.right/1427.1105.1680.1025/0.25.1920.1055/-1920.25.1920.1006@-1920.25.1920.1006" timestamp="1618511090826" />
   </component>
 </project>
