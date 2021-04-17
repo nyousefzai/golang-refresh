@@ -33,18 +33,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1rAYXgu7lZwlStOlaKBSOPWqBPb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Go Test.TestNewDeck in golang-refresh">
+  <component name="RunManager" selected="Go Test.TestDeckFromFile in golang-refresh">
     <configuration name="go build golang-refresh" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-refresh" />
       <working_directory value="$PROJECT_DIR$" />
@@ -52,6 +56,17 @@
       <filePath value="$PROJECT_DIR$/main.go" />
       <package value="golang-refresh" />
       <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestDeckFromFile in golang-refresh" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang-refresh" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="golang-refresh" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestDeckFromFile\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestNewDeck in golang-refresh" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -67,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestDeckFromFile in golang-refresh" />
         <item itemvalue="Go Test.TestNewDeck in golang-refresh" />
         <item itemvalue="Go Build.go build golang-refresh" />
       </list>
@@ -88,26 +104,29 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1700" height="225" key="GridCell.Tab.0.bottom" timestamp="1618517866836">
+    <state width="1700" height="225" key="GridCell.Tab.0.bottom" timestamp="1618674407608">
       <screen x="-1920" y="25" width="1920" height="1006" />
     </state>
     <state width="1700" height="132" key="GridCell.Tab.0.bottom/0.25.1920.1006/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618423848632" />
-    <state width="1700" height="225" key="GridCell.Tab.0.bottom/1427.1105.1680.1025/0.25.1920.1055/-1920.25.1920.1006@-1920.25.1920.1006" timestamp="1618517866836" />
-    <state width="1700" height="225" key="GridCell.Tab.0.center" timestamp="1618517866835">
+    <state width="1700" height="225" key="GridCell.Tab.0.bottom/1427.1105.1680.1025/0.25.1920.1055/-1920.25.1920.1006@-1920.25.1920.1006" timestamp="1618674407608" />
+    <state width="1700" height="225" key="GridCell.Tab.0.center" timestamp="1618674407607">
       <screen x="-1920" y="25" width="1920" height="1006" />
     </state>
     <state width="1700" height="132" key="GridCell.Tab.0.center/0.25.1920.1006/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618423848631" />
-    <state width="1700" height="225" key="GridCell.Tab.0.center/1427.1105.1680.1025/0.25.1920.1055/-1920.25.1920.1006@-1920.25.1920.1006" timestamp="1618517866835" />
-    <state width="1700" height="225" key="GridCell.Tab.0.left" timestamp="1618517866834">
+    <state width="1700" height="225" key="GridCell.Tab.0.center/1427.1105.1680.1025/0.25.1920.1055/-1920.25.1920.1006@-1920.25.1920.1006" timestamp="1618674407607" />
+    <state width="1700" height="225" key="GridCell.Tab.0.left" timestamp="1618674407606">
       <screen x="-1920" y="25" width="1920" height="1006" />
     </state>
     <state width="1700" height="132" key="GridCell.Tab.0.left/0.25.1920.1006/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618423848631" />
-    <state width="1700" height="225" key="GridCell.Tab.0.left/1427.1105.1680.1025/0.25.1920.1055/-1920.25.1920.1006@-1920.25.1920.1006" timestamp="1618517866834" />
-    <state width="1700" height="225" key="GridCell.Tab.0.right" timestamp="1618517866836">
+    <state width="1700" height="225" key="GridCell.Tab.0.left/1427.1105.1680.1025/0.25.1920.1055/-1920.25.1920.1006@-1920.25.1920.1006" timestamp="1618674407606" />
+    <state width="1700" height="225" key="GridCell.Tab.0.right" timestamp="1618674407608">
       <screen x="-1920" y="25" width="1920" height="1006" />
     </state>
     <state width="1700" height="132" key="GridCell.Tab.0.right/0.25.1920.1006/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618423848632" />
-    <state width="1700" height="225" key="GridCell.Tab.0.right/1427.1105.1680.1025/0.25.1920.1055/-1920.25.1920.1006@-1920.25.1920.1006" timestamp="1618517866836" />
+    <state width="1700" height="225" key="GridCell.Tab.0.right/1427.1105.1680.1025/0.25.1920.1055/-1920.25.1920.1006@-1920.25.1920.1006" timestamp="1618674407608" />
   </component>
 </project>
